@@ -14,7 +14,7 @@ A desktop GUI project created to explore:
 
 ## Preview
 
-![Preview](assets/pawned.jpg)
+![Preview](assets/preview.jpg)
 
 ## Features
 
