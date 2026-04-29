@@ -115,8 +115,8 @@ canvas.create_text(
 # Password
 PASSWORD = "1234"
 
-frame = tk.Frame(root, bg="#0a0a0f")
-frame.place(relx=0.5, rely=0.5, anchor="center")
+frame = tk.Frame(panel, bg="#0f0f1a")
+frame.pack()
 
 entry_var = tk.StringVar()
 error_var = tk.StringVar()
@@ -175,7 +175,7 @@ btn = tk.Button(
     pady=8,
     cursor="hand2"
 )
-btn.pack(pady=(12, 0))
+btn.pack(pady=(12, 15))
 
 entry.bind("<Return>", unlock)
 entry.bind("<Escape>", lambda e: "break")
