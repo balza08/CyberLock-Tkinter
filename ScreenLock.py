@@ -81,6 +81,16 @@ photo = ImageTk.PhotoImage(img)
 img_label = tk.Label(panel, image=photo, bg="#0f0f1a")
 img_label.pack(pady=(10, 5))
 
+#output
+title = tk.Label(
+    panel,
+    text="SYSTEM COMPROMISED",
+    font=("Courier New", 18, "bold"),
+    fg="#ff2e2e",
+    bg="#0f0f1a"
+)
+title.pack(pady=(0, 10))
+
 # Linee decorative
 for i in range(0, W + H, 60):
     canvas.create_line(i, 0, 0, i, fill="#1a1a2e", width=1)
