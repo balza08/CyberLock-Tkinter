@@ -14,7 +14,7 @@ A desktop GUI project created to explore:
 
 ## Preview
 
-![Preview](assets/preview.jpg)
+![Preview](assets/preview.png)
 
 ## Features
 
