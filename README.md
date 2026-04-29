@@ -12,7 +12,9 @@ A desktop GUI project created to explore:
 
 ## Preview
 
-(Add screenshot here)
+## Preview
+
+![Preview](assets/pawned.jpg)
 
 ## Features
 
