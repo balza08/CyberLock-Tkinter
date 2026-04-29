@@ -94,16 +94,7 @@ title.pack(pady=(0, 10))
 # Linee decorative
 for i in range(0, W + H, 60):
     canvas.create_line(i, 0, 0, i, fill="#1a1a2e", width=1)
-
-# Titolo
-canvas.create_text(
-    W // 2,
-    H // 2 - 120,
-    text="SCHERMO BLOCCATO",
-    font=("Courier New", 38, "bold"),
-    fill="#e0e0ff"
-)
-
+    
 # Password
 PASSWORD = "1234"
 
