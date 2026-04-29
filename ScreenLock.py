@@ -104,14 +104,6 @@ canvas.create_text(
     fill="#e0e0ff"
 )
 
-canvas.create_text(
-    W // 2,
-    H // 2 - 60,
-    text="Inserisci la password per sbloccare",
-    font=("Courier New", 15),
-    fill="#8888aa"
-)
-
 # Password
 PASSWORD = "1234"
 
@@ -163,7 +155,7 @@ def unlock(event=None):
 # Bottone
 btn = tk.Button(
     frame,
-    text="SBLOCCA",
+    text="UNLOCK",
     command=unlock,
     font=("Courier New", 13, "bold"),
     bg="#1e1e4a",
