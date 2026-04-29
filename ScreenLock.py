@@ -71,12 +71,15 @@ canvas = tk.Canvas(
 )
 canvas.pack(fill="both", expand=True)
 
-#Script per l'aggiunta della foto
+panel = tk.Frame(root, bg="#0f0f1a")
+panel.place(relx=0.5, rely=0.5, anchor="center")
+
 img = Image.open("pawned.jpg")
-img = img.resize((420, 260))
+img = img.resize((320, 180))
 photo = ImageTk.PhotoImage(img)
-img_label = tk.Label(root, image=photo, bg="#0a0a0f", borderwidth=0)
-img_label.place(relx=0.5, rely=0.28, anchor="center")
+
+img_label = tk.Label(panel, image=photo, bg="#0f0f1a")
+img_label.pack(pady=(10, 5))
 
 # Linee decorative
 for i in range(0, W + H, 60):
