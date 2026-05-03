@@ -45,6 +45,7 @@ This project was created for educational purposes to practice Python GUI program
 ## Disclaimer
 
 This software is a visual simulation / prank-style interface and is not a real operating system security lockscreen.
+For unlock the screen the password is 1234
 
 ## Author
 Paolo Balzarotti
